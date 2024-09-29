@@ -13,7 +13,7 @@ const app = express();
 app.use(bodyParser.json({extended:true}));
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(cors({
-    origin: 'http://localhost:3000', // React app URL
+    origin: 'https://main--raag-dhun-music-web-app.netlify.app', // React app URL
     methods: 'GET,POST,PUT,DELETE,PATCH',
 }));
 
