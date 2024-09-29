@@ -2,7 +2,7 @@
     import dotenv from 'dotenv';
 
 
-dotenv.config({ path: 'config.env' });
+dotenv.config();
 mongoose.set('strictQuery', true);
 
 const db_url = process.env.DB_URL;
