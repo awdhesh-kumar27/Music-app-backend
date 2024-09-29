@@ -2,7 +2,7 @@ import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 
 // dotenv.config();
-dotenv.config({ path: 'config.env' });
+dotenv.config();
 
 const secret =  process.env.JWT_KEY; 
 export const Settoken = (user) =>{
