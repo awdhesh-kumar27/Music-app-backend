@@ -13,7 +13,7 @@ const app = express();
 app.use(bodyParser.json({extended:true}));
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(cors({
-    origin: 'https://raag-dhun-music-web-app.vercel.app', // React app URL
+    origin: 'https://raag-dhun-music-web.vercel.app', // React app URL
     methods: 'GET,POST,PUT,DELETE,PATCH',
 }));
 
