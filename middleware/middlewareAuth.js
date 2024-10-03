@@ -24,7 +24,7 @@
                 next();
             } else {
                 console.log('Token is invalid or expired');
-                return res.status(500).send({ message: 'Failed to authenticate token.' });
+                return res.status(401).send({ message: 'Failed to authenticate token.' });
             }
 
     }
